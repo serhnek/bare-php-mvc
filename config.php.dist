@@ -1,0 +1,15 @@
+<?php
+
+// database
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'test');
+
+// sms
+define('SMS_ADDRESS', '+1234567890');
+define('SMS_MESSAGE', 'Value changed: ');
+
+// email
+define('EMAIL_ADDRESS', 'test@example.com');
+define('EMAIL_SUBJECT', 'Value changed');

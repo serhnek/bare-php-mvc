@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><?= $title ?></title>
+</head>
+<body>
+<h1><?= $header ?></h1>
+<form method='post' action=''>
+  <input type='hidden' name='token' value='<?= $token ?>'>
+  <textarea name='textarea' rows='3' cols='30'><?= $textarea ?></textarea><br>
+  <input type='submit' name='submit' value='Submit'>
+</form>
+</body>
+</html>
